@@ -1,6 +1,7 @@
 
 # Your project name
-
+This is a template repo for your project to help you organise and document your code better. 
+Please use this structure for your project and document the installation, usage and structure as below.
 
 ## Quickstart
 
@@ -30,20 +31,20 @@ Tell us how the code is arranged, any explanations goes here.
 The directory structure of new project looks like this:
 
 ```
-├── data                   <- Project data files
+├── data                        <- Project data files
 │
-├── src                    <- Source code
-│   ├── data                     <- Data directory
-│   ├── models                   <- Model directory
-│   ├── utils                    <- Utility directory
-│   ├── scripts                  <- Shell scripts
+├── src                         <- Source code
+│   ├── data                            <- Data directory
+│   ├── models                          <- Model directory
+│   ├── utils                           <- Utility directory
+│   ├── scripts                         <- Shell scripts
 │
-├── tests                  <- Tests of any kind
+├── tests                       <- Tests of any kind
 │
-├── results.ipynb          <- a well-structured notebook showing the results
+├── results.ipynb               <- a well-structured notebook showing the results
 │
-├── .gitignore             <- List of files ignored by git
-├── requirements.txt       <- File for installing python dependencies
+├── .gitignore                  <- List of files ignored by git
+├── pip_requirements.txt        <- File for installing python dependencies
 └── README.md
 ```
 
