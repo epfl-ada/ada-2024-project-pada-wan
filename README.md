@@ -3,7 +3,7 @@
 
 ## Abstract
 
-We are a beer company eager to launch a new product. We have therefore hired data analysis in order to look at beer reviews to find the customer needs and succeed in our market entry. For this, we will first observe the global beer landscape to see how satisfied the customers are with the current market to find if an entry is possible. In this case, we will observe the favorable charasteritcs of the products in order to multiply the chances of a succesfull market entry. We will also analysize the sales of other breweries through [this](https://www.kaggle.com/datasets/ankurnapa/brewery-operations-and-market-analysis-dataset) dataset.
+We are a group of students passionate about brewering eager to launch our own beer. We have therefore taken it uppon our selves to look at beer reviews, find the customer needs and succeed in our market entry. For this, we will first observe the global beer landscape to see how satisfied the customers are with the current market and to see if an entry is possible. In this case, we will analyse the favorable characteristics of the products in order to multiply our chances of a succesfull market entry. We will also make an in depth analysis of the sales from other breweries through [this](https://www.kaggle.com/datasets/ankurnapa/brewery-operations-and-market-analysis-dataset) dataset. Once we have our product, we will develop a launch strategy containing A DAta-driven communication plan and launch schedule. 
 
 ## Quickstart
 
