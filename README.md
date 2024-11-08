@@ -1,7 +1,9 @@
 
-# Your project name
-This is a template repo for your project to help you organise and document your code better. 
-Please use this structure for your project and document the installation, usage and structure as below.
+# Market analysis to introduce a new beer
+
+## Abstract
+
+We are a beer company eager to launch a new product. We have therefore hired data analysis in order to look at beer reviews to find the customer needs and succeed in our market entry. For this, we will first observe the global beer landscape to see how satisfied the customers are with the current market to find if an entry is possible. In this case, we will observe the favorable charasteritcs of the products in order to multiply the chances of a succesfull market entry. We will also analysize the sales of other breweries through [this]([url](https://www.kaggle.com/datasets/ankurnapa/brewery-operations-and-market-analysis-dataset)) dataset.
 
 ## Quickstart
 
