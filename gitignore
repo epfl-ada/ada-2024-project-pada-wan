@@ -1,0 +1,9 @@
+# Ignore everything in this directory
+RateBeer.tar.gz
+BeerAdvocate.tar.gz
+matched_beer_data.tar.gz
+
+# Other possibility : ignore all .tar.gz files
+*.tar.gz
+*.csv
+*.txt.gz
