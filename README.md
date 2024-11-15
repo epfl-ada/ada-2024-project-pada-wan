@@ -31,13 +31,16 @@ The current datasets from Rate Beers and Beer Advocate are already quite dense a
 - Have a convincing website setup and ideally host questions 1 and 2 (Owen)
 - Start to have a look at how to get more data from BeerAdvocate, beerizer (Owen)
 - Put in conclusions and link notebooks into results (Anderson)
+
 08.12.2024:
 - Start answering questions 4, 5, 7 (Tom, Sylvain, Matti)
 - Start working on NLP for question 6 (Owen)
 - Link the notebooks and link notebooks into results  and upload findings to the website (Anderson)
+
 15.12.2024
 - Be done answering questions 4, 5, 7 (Tom, Sylvain, Matti)
 - Final linking of jupyter notebooks and upload to website (Owen, Anderson)
+
 20.12.2024 Clean up code (buffer period)
 
 
