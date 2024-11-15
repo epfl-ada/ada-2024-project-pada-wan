@@ -4,15 +4,15 @@ We are a group of students passionate about brewing, and eager to launch our fir
 ## Research Questions 
 ### How to launch a successful beer?
 #### Product launch:
-  1.How does the choice of initial launch country affect the ratings and reception of a new beer brand?
-  2.The growing hype around craft beers could lead to market saturation. Are newcomers welcome in the beer world?
+1. How does the choice of initial launch country affect the ratings and reception of a new beer brand?
+2. The growing hype around craft beers could lead to market saturation. Are newcomers welcome in the beer world?
 #### Creating the perfect product:	
-  3.What kind of customer do we want to market to? Which beers do they tend to review, where do they come from and where should we export to next?
-  4.How does beer pricing affect the reviews and success of beer start-ups? 
-  5.What impact do different beer styles (e.g., ales, stouts) and other taste characteristics have on consumer perception of startup beer brands?
+3. What kind of customer do we want to market to? Which beers do they tend to review, where do they come from and where should we export to next?
+4. How does beer pricing affect the reviews and success of beer start-ups?
+5. What impact do different beer styles (e.g., ales, stouts) and other taste characteristics have on consumer perception of startup beer brands?
 #### Marketing strategy:
-  6.What beer naming strategy can promote product success?
-  7.How do seasonal trends affect beer perception and sales, and what are the optimal times of year to launch new beer products?
+6. What beer naming strategy can promote product success?
+7. How do seasonal trends affect beer perception and sales, and what are the optimal times of year to launch new beer products?
 
 ## Methods
 ### Data Preprocessing
