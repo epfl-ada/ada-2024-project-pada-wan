@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 
 def extract_full_data(file_path: str, fields: list[str] = None) -> pd.DataFrame:
     """
