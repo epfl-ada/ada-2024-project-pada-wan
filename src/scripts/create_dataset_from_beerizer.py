@@ -4,6 +4,7 @@ from selenium.webdriver.firefox.options import Options
 import os
 import time
 from dotenv import load_dotenv
+from bs4 import BeautifulSoup
 
 load_dotenv()
 url = 'https://beerizer.com/?page1'
@@ -18,6 +19,20 @@ driver = webdriver.Firefox(service=Service(os.path.join(path_to_firefox, 'geckod
 
 driver.get(url)
 
-time.sleep(3)
 
-print(driver.page_source)
+time.sleep(0.1)
+
+beer_sections = BeautifulSoup(driver.page_source, 'html.parser').find_all('div', class_='beer-inner-top')
+
+for beer_section in beer_sections:
+    # get the name of the beer
+    title_span = beer_section.find('span', class_='title', attrs={'itemprop': 'name'})
+
+    if title_span:
+        strong_text = title_span.find('strong')
+        print(strong_text.text.strip())
+
+    price_span = beer_section.find('span', class_='price')
+    if price_span:
+        price = price_span.text.strip()
+        print(price)
