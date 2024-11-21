@@ -48,6 +48,7 @@ ultimate_df = pd.DataFrame(
 try:
 
     for i in range(max_page - 10):
+        print("on page ", i)
         beer_dico = {}
 
         driver.get(url_prepage + str(i))
@@ -58,14 +59,12 @@ try:
 
         beer_sections = page_source.find_all('div', class_='beer-inner-top')
 
-        print("number of pages ", get_largest_page(page_source))
 
         for beer_section in beer_sections:
             # get the name of the beer
             title_span = beer_section.find('span', class_='title', attrs={'itemprop': 'name'})
             if title_span:
                 strong_text = title_span.find('strong')
-                print(strong_text.text.strip())
                 beer_dico['Beer_name'] = strong_text.text.strip()
 
             # brewery name and origin
@@ -73,17 +72,14 @@ try:
             if brewery_span:
                 img = brewery_span.find('img')
                 if img:
-                    print(img.get('alt'))
                     beer_dico['Origin'] = img.get('alt')
                     img.extract()
-                print(brewery_span.get_text(strip=True))
                 beer_dico['Brewery'] = brewery_span.get_text(strip=True)
 
             # price
             price_span = beer_section.find('span', class_='price')
             if price_span:
                 price = price_span.text.strip()
-                print(price)
                 beer_dico['Price'] = price
 
             # untappd rating
@@ -91,9 +87,7 @@ try:
             if pack_info_div:
                 span_pack_info_div = pack_info_div.find('span')
                 if span_pack_info_div:
-                    print(span_pack_info_div.get_text(strip=True))
                     beer_dico['Countenance'] = span_pack_info_div.get_text(strip=True)
-                    print(span_pack_info_div.get('title'))
                     beer_dico['Countenance_per_litre'] = span_pack_info_div.get('title')
 
             # alcohol percentage if bundle discard
@@ -101,12 +95,10 @@ try:
             if additional_info:
                 untapped_rating = additional_info.find('a', class_='untappd untappd-mouseover')
                 if untapped_rating:
-                    print(untapped_rating.get_text(strip=True))
                     beer_dico['Rating'] = untapped_rating.get_text(strip=True)
 
                 percentage_alcohol = additional_info.find('span', class_='abv value')
                 if percentage_alcohol:
-                    print(percentage_alcohol.get_text(strip=True))
                     beer_dico['Percentage'] = percentage_alcohol.get_text(strip=True)
             elif beer_section.find('div', class_='bundle-header'):
                 continue
@@ -114,11 +106,9 @@ try:
             # beer type
             beer_type_div = beer_section.find('div', class_='right-item-row style')
             if beer_type_div:
-                print(beer_type_div.get_text(strip=True))
                 beer_dico['Beer_type'] = beer_type_div.get_text(strip=True)
 
             ultimate_df.loc[len(ultimate_df)] = beer_dico
-            print()
 finally:
     driver.quit()
     ultimate_df.to_csv('official_beerizer_dataset.csv', index=False)
