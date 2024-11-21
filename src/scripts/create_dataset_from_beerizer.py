@@ -9,22 +9,14 @@ import sys
 import numpy as np
 
 load_dotenv()
-url = 'https://beerizer.com/?page1'
+url_prepage = 'https://beerizer.com/?page='
+url = 'https://beerizer.com/'
 path_to_firefox = os.getenv('PATH_TO_FIREFOX')
 
 options = Options()
 options.headless = True
 options.binary_location = os.path.join(path_to_firefox, 'firefox')
 options.add_argument('--headless')
-
-driver = webdriver.Firefox(service=Service(os.path.join(path_to_firefox, 'geckodriver')), options=options)
-
-driver.get(url)
-
-
-
-time.sleep(0.1)
-
 
 def get_largest_page(page_source):
     max_page = 0
@@ -37,58 +29,76 @@ def get_largest_page(page_source):
             max_page = int(page_switch_el.get_text(strip=True))
     return max_page
 
+driver = webdriver.Firefox(service=Service(os.path.join(path_to_firefox, 'geckodriver')), options=options)
+
+driver.get(url)
+
+time.sleep(0.1)
+
+page_source = BeautifulSoup(driver.page_source, 'html.parser')
+
+max_page = get_largest_page(page_source)
+
 
 try:
-    page_source = BeautifulSoup(driver.page_source, 'html.parser')
 
-    beer_sections = page_source.find_all('div', class_='beer-inner-top')
+    for i in range(10):
 
-    print("number of pages ",get_largest_page(page_source))
-    for beer_section in beer_sections:
-        # get the name of the beer
-        title_span = beer_section.find('span', class_='title', attrs={'itemprop': 'name'})
-        if title_span:
-            strong_text = title_span.find('strong')
-            print(strong_text.text.strip())
+        driver.get(url_prepage + str(i))
 
-        brewery_span = beer_section.find('span', class_='brewery-title')
-        if brewery_span:
-            img = brewery_span.find('img')
-            if img:
-                print(img.get('alt'))
-                img.extract()
-            print(brewery_span.get_text(strip=True))
+        time.sleep(0.1)
 
-        price_span = beer_section.find('span', class_='price')
-        if price_span:
-            price = price_span.text.strip()
-            print(price)
+        page_source = BeautifulSoup(driver.page_source, 'html.parser')
 
-        pack_info_div = beer_section.find('div', class_='pack-info')
-        if pack_info_div:
-            span_pack_info_div = pack_info_div.find('span')
-            if span_pack_info_div:
-                print(span_pack_info_div.get_text(strip=True))
-                print(span_pack_info_div.get('title'))
+        beer_sections = page_source.find_all('div', class_='beer-inner-top')
 
-        additional_info = beer_section.find('div', class_='right-item-row rating-abv-rpc')
-        if additional_info:
-            untapped_rating = additional_info.find('a', class_='untappd untappd-mouseover')
-            if untapped_rating:
-                print(untapped_rating.get_text(strip=True))
+        print("number of pages ", get_largest_page(page_source))
 
-            percentage_alcohol = additional_info.find('span', class_='abv value')
-            if percentage_alcohol:
-                print(percentage_alcohol.get_text(strip=True))
-        elif beer_section.find('div', class_='bundle-header'):
-                continue
+        for beer_section in beer_sections:
+            # get the name of the beer
+            title_span = beer_section.find('span', class_='title', attrs={'itemprop': 'name'})
+            if title_span:
+                strong_text = title_span.find('strong')
+                print(strong_text.text.strip())
+
+            brewery_span = beer_section.find('span', class_='brewery-title')
+            if brewery_span:
+                img = brewery_span.find('img')
+                if img:
+                    print(img.get('alt'))
+                    img.extract()
+                print(brewery_span.get_text(strip=True))
+
+            price_span = beer_section.find('span', class_='price')
+            if price_span:
+                price = price_span.text.strip()
+                print(price)
+
+            pack_info_div = beer_section.find('div', class_='pack-info')
+            if pack_info_div:
+                span_pack_info_div = pack_info_div.find('span')
+                if span_pack_info_div:
+                    print(span_pack_info_div.get_text(strip=True))
+                    print(span_pack_info_div.get('title'))
+
+            additional_info = beer_section.find('div', class_='right-item-row rating-abv-rpc')
+            if additional_info:
+                untapped_rating = additional_info.find('a', class_='untappd untappd-mouseover')
+                if untapped_rating:
+                    print(untapped_rating.get_text(strip=True))
+
+                percentage_alcohol = additional_info.find('span', class_='abv value')
+                if percentage_alcohol:
+                    print(percentage_alcohol.get_text(strip=True))
+            elif beer_section.find('div', class_='bundle-header'):
+                    continue
 
 
-        beer_type_div = beer_section.find('div', class_='right-item-row style')
-        if beer_type_div:
-            print(beer_type_div.get_text(strip=True))
+            beer_type_div = beer_section.find('div', class_='right-item-row style')
+            if beer_type_div:
+                print(beer_type_div.get_text(strip=True))
 
-        print()
+            print()
 finally:
     driver.quit()
 
