@@ -260,3 +260,4 @@ RateBeer/
 *.vsix
 /src/scripts/geckodriver-v0.35.0-linux64/
 .env
+*.csv
