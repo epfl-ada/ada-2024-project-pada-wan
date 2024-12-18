@@ -11,6 +11,10 @@ import numpy as np
 import time
 from dotenv import load_dotenv
 import os
+import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
+
+TRAIN_CHARRNN = False
 
 allowed_characters = string.ascii_letters + ".,;''"
 n_letters = len(allowed_characters)
@@ -36,10 +40,8 @@ def lineToTensor(line):
 
 
 class NamesDataset(Dataset):
-    def __init__(self, data_dir, brewery_dir):
-        data_df = pd.read_csv(data_dir)
+    def __init__(self, data_df, brewery_df):
         data_df['beer_name'] = data_df['beer_name'].apply(unicodeToAscii)
-        brewery_df = pd.read_csv(brewery_dir)
         brewery_ids = data_df['brewery_id'].tolist()
         id_to_location = dict(zip(brewery_df['id'], brewery_df['location']))
         print(data_df[data_df['beer_name'].isna()])
@@ -58,17 +60,25 @@ class NamesDataset(Dataset):
 
         # prepare the label tensor
         self.labels_tensor = []
+        self.labels_tensor_onehot = []
         labels_set = set(self.labels)
         # gives you the unique labels
         self.labels_unique = list(labels_set)
         for idx in range(len(self.labels)):
+            # attribute value to labels_tensor
             self.labels_tensor.append(torch.tensor([self.labels_unique.index(self.labels[idx])], dtype=torch.long))
+
+            # prepare the one-hot encoded label tensor
+            temp_tensor = torch.zeros(len(self.labels_unique))
+            temp_tensor[0][int(self.labels_tensor[0][0])] = 1
+            self.labels_tensor_onehot.append(temp_tensor)
 
     def __len__(self):
         return len(self.data)
 
     def __getitem__(self, idx):
-        return self.labels_tensor[idx], self.data_tensor[idx], self.labels[idx], self.data[idx]
+        return self.labels_tensor[idx], self.data_tensor[idx], self.labels[idx], self.data[idx], \
+            self.labels_tensor_onehot[idx]
 
 
 class CharRNN(nn.Module):
@@ -83,6 +93,31 @@ class CharRNN(nn.Module):
         output = self.h2o(hidden[0])
         output = self.softmax(output)
         return output
+
+
+class RNN(nn.Module):
+    def __init__(self, n_categories, input_size, hidden_size, output_size):
+        super(RNN, self).__init__()
+        self.hidden_size = hidden_size
+
+        self.i2h = nn.Linear(n_categories + input_size + hidden_size, hidden_size)
+        self.i2o = nn.Linear(n_categories + input_size + hidden_size, output_size)
+        self.o2o = nn.Linear(hidden_size + output_size, output_size)
+        self.dropout = nn.Dropout(0.1)
+        self.softmax = nn.LogSoftmax(dim=1)
+
+    def forward(self, category, input, hidden):
+        input_combined = torch.cat((category, input, hidden), 1)
+        hidden = self.i2h(input_combined)
+        output = self.i2o(input_combined)
+        output_combined = torch.cat((hidden, output), 1)
+        output = self.o2o(output_combined)
+        output = self.dropout(output)
+        output = self.softmax(output)
+        return output, hidden
+
+    def initHidden(self):
+        return torch.zeros(1, self.hidden_size)
 
 
 def train(rnn, training_data, n_epoch=10, n_batch_size=64, report_every=50, learning_rate=0.2, criterion=nn.NLLLoss()):
@@ -110,7 +145,7 @@ def train(rnn, training_data, n_epoch=10, n_batch_size=64, report_every=50, lear
         for idx, batch in enumerate(batches):
             batch_loss = 0
             for i in batch:  # for each example in this batch
-                (label_tensor, text_tensor, label, text) = training_data[i]
+                (label_tensor, text_tensor, label, text, _) = training_data[i]
                 output = rnn.forward(text_tensor)
                 loss = criterion(output, label_tensor)
                 batch_loss += loss
@@ -129,6 +164,12 @@ def train(rnn, training_data, n_epoch=10, n_batch_size=64, report_every=50, lear
         current_loss = 0
 
     return all_losses
+
+
+def label_from_output(output, output_labels):
+    top_n, top_i = output.topk(1)
+    label_i = top_i[0].item()
+    return output_labels[label_i], label_i
 
 
 def evaluate(rnn, testing_data, classes):
@@ -169,17 +210,20 @@ def evaluate(rnn, testing_data, classes):
 
 if __name__ == "__main__":
     load_dotenv()
-    dataset = NamesDataset(data_dir=os.getenv("PATH_TO_BEERADVOCATE_BEERS"),
-                           brewery_dir=os.getenv("PATH_TO_BEERADVOCATE_BREWERIES"))
+    beer_df = pd.read_csv(os.getenv("PATH_TO_BEERADVOCATE_BEERS"))
+    brewery_df = pd.read_csv(os.getenv("PATH_TO_BEERADVOCATE_BREWERIES"))
+    dataset = NamesDataset(beer_df, brewery_df)
+
     train_set, test_set = torch.utils.data.random_split(dataset, [.85, .15],
                                                         generator=torch.Generator().manual_seed(2024))
-    n_hidden = 128
-    rnn = CharRNN(n_letters, n_hidden, len(dataset.labels_unique))
-    start = time.time()
-    all_losses = train(rnn, train_set, n_epoch=27, report_every=5, learning_rate=0.15)
-    end = time.time()
-    print(f"training took {end - start:.2f} seconds")
-    evaluate(rnn, test_set, classes=dataset.labels_unique)
-    torch.save(rnn, "full_model.pth")
-    print("model saved")
-
+    if TRAIN_CHARRNN:
+        n_hidden = 128
+        rnn = CharRNN(n_letters, n_hidden, len(dataset.labels_unique))
+        start = time.time()
+        all_losses = train(rnn, train_set, n_epoch=27, report_every=5, learning_rate=0.15)
+        end = time.time()
+        print(f"training took {end - start:.2f} seconds")
+        evaluate(rnn, test_set, classes=dataset.labels_unique)
+        torch.save(rnn, "full_model.pth")
+        print("model saved")
+    else:
