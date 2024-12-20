@@ -24,21 +24,11 @@ Each review uploaded to RateBeer and BeerAdvocate has a date and location associ
 ### Additional Datasets
 The current datasets from Rate Beers and Beer Advocate are already quite dense and contain various information. However, we observed a significant concentration of users from the USA compared to other regions. To mitigate this bias, we considered two options. Firstly, we will take into account, for questions that are location dependent, the overrepresentation of U.S. users by mitigating it through normalisation using population data from the World Bank in our dataset. Secondly, we want to incorporate additional beer reviews from other datasets. We intend to complement our datasets, especially the appearance of our beers with this dataset. We also intend to get more data still off the internet by trying to scrape some data off websites such as beer advocate and beerizer.com to try and get more up-to-date info about some beers and to try and extract prices.
 
-## Timeline and Organisation
-01.12.2024 :
-- Be done answering questions 1, 2, and 3 in three separate notebooks (Sylvain, Tom, Matti)
-- Have a convincing website setup and ideally host questions 1 and 2 (Owen)
-- Start to have a look at how to get more data from BeerAdvocate, beerizer (Owen)
-
-08.12.2024:
-- Start answering questions 4, 5, 7 (Tom, Sylvain, Matti)
-- Start working on NLP for question 6 (Owen)
-- Link the notebooks and link notebooks into results and upload findings to the website (Owen)
-
-15.12.2024
-- Be done answering questions 4, 5, 7 (Tom, Sylvain, Matti)
-- Final linking of jupyter notebooks and upload to website (Owen)
-
-20.12.2024 Clean up code (buffer period)
+## Contributions
+Matti: Problem formulation, Newcomer Analysis, Data Story Structure and Text Production
+Anderson: Left the group for his startup
+Sylvain: Location Analysis, Data Story Structure and Text Production
+Owen: Data scraping, website setup, Plotting interactive graphs
+Tom: Linking the notebooks, Data Story Structure and Text Production
 
 
