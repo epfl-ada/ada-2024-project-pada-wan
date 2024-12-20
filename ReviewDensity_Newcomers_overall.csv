@@ -1,0 +1,799 @@
+"ba_beer_id","total_reviews","first_year_reviews","ba_beer_name","review_ratio"
+88889,15,14,"3Beans",0.9333333333333333
+127652,13,12,"Second Fiddle",0.9230769230769231
+96755,11,10,"Grassroots Arctic Saison",0.9090909090909091
+35404,10,9,"Rogue Ten Thousand Brew Ale (Brew 10,000)",0.9
+95326,9,8,"Troublesome",0.8888888888888888
+49835,9,8,"Dark Hops",0.8888888888888888
+143706,9,8,"Jolly Pumpkin / Upland Brewing Persimmon Ship",0.8888888888888888
+87728,9,8,"Voodoo Doughnut Chocolate, Banana & Peanut Butter Ale",0.8888888888888888
+103462,8,7,"Golden Gate Gose",0.875
+80811,7,6,"Terrapin Easy Rider",0.8571428571428571
+124585,7,6,"Terrapin Rye Cubed",0.8571428571428571
+71633,7,6,"Allagash Fluxus 2011",0.8571428571428571
+49620,7,6,"Terrapin 90 Shelling Scotch Ale",0.8571428571428571
+70038,7,6,"AleSmith Decadence 2008 Barrel Aged",0.8571428571428571
+143355,7,6,"Warsteiner Weihnacht",0.8571428571428571
+62024,7,6,"Biere De Goord",0.8571428571428571
+57913,6,5,"Cantillon Pikkulinnun Viskilambic",0.8333333333333334
+123363,6,5,"Showdown Rye IPA",0.8333333333333334
+132991,6,5,"Allagash Farm To Face",0.8333333333333334
+83460,6,5,"Walden",0.8333333333333334
+99268,6,5,"Midnight Hoppyness",0.8333333333333334
+82574,6,5,"Mochaccino Messiah",0.8333333333333334
+71298,6,5,"Summit Silver Anniversary Ale",0.8333333333333334
+92789,6,5,"Prolegomena",0.8333333333333334
+111037,6,5,"Trilogy 1 Crystal Dry-Hopped Pale Ale",0.8333333333333334
+116632,6,5,"20th Anniversary Belgian-Style Ale",0.8333333333333334
+66159,6,5,"Foster",0.8333333333333334
+69630,6,5,"Columbus IPA",0.8333333333333334
+147118,6,5,"Zodiak",0.8333333333333334
+63656,6,5,"Anvil Porter",0.8333333333333334
+90091,6,5,"Wrecking Ball Imperial Stout",0.8333333333333334
+120455,6,5,"Quasimodo",0.8333333333333334
+98715,6,5,"Cask 200",0.8333333333333334
+111574,6,5,"Sourdough Wild Ale",0.8333333333333334
+69407,11,9,"Sixteen",0.8181818181818182
+80893,5,4,"Terrapin Phlux Capacitor",0.8
+81993,5,4,"Gigantic IPA",0.8
+37201,5,4,"IPA (II)",0.8
+82647,5,4,"Sweetwater LowRYEder IPA",0.8
+95620,5,4,"Cahoots Double Rye IPA",0.8
+95746,15,12,"Oatmeal Yeti",0.8
+89487,10,8,"Fifteen",0.8
+96053,5,4,"Terrapin RecreationAle",0.8
+110865,5,4,"Tinder Rauchbier",0.8
+109846,5,4,"Daliesque",0.8
+93448,5,4,"Horicon Session IPA",0.8
+51498,10,8,"Duck-Rabbit Schwarzbier",0.8
+86286,5,4,"Gotlandsdricka",0.8
+118317,5,4,"Red Racer I.S.A.",0.8
+92197,5,4,"Fantome / Hill Farmstead 5 Sciences Beer",0.8
+106007,5,4,"Lasso",0.8
+98115,5,4,"Imperial Pumpkin Smash",0.8
+103569,5,4,"Farmhouse Noir",0.8
+41527,5,4,"Terrapin Hop Shortage Ale",0.8
+52215,5,4,"Allagash Fluxus 2009",0.8
+94154,5,4,"Bright Sea Blonde",0.8
+118952,5,4,"Dual Artisanship",0.8
+73837,5,4,"Hommel Bier",0.8
+23555,5,4,"Prophecy",0.8
+159885,5,4,"Breaking Bud",0.8
+69902,5,4,"Motueka Pale Ale",0.8
+161088,5,4,"Smuttynose Hayseed",0.8
+136652,5,4,"Westly",0.8
+168462,5,4,"Introvert Session IPA",0.8
+170316,5,4,"Consolation Prize",0.8
+133077,5,4,"Lyric Ale",0.8
+68087,5,4,"Hoptimus Prime",0.8
+170521,5,4,"Conduct Of Life",0.8
+125546,5,4,"Flying Monkeys The Matador Version 2.0 El Toro Bravo",0.8
+73314,5,4,"Spike & Jérôme’s Cuvée Délirante (Collaboration Ale)",0.8
+124428,5,4,"Sweetwater Take Two Pils",0.8
+9906,5,4,"Stoudt's Blonde Double MaiBock",0.8
+73949,5,4,"Sweetwater Dank Tank Ghoulash",0.8
+123960,5,4,"Nerd Alert Pseudo Pilsner",0.8
+188570,5,4,"Drie Fonteinen Zenne Y Frontera",0.8
+58119,5,4,"Red Haired Jeanne (Roste Jeanne)",0.8
+36814,5,4,"Casey Jones Imperial IPA",0.8
+63898,9,7,"The Big Smoke",0.7777777777777778
+59144,13,10,"Cantillon Don Quijote",0.7692307692307693
+81697,13,10,"Ann",0.7692307692307693
+94505,13,10,"Scurry",0.7692307692307693
+59214,13,10,"Fifteen",0.7692307692307693
+88817,8,6,"Allagash FV 13",0.75
+90825,12,9,"Brooklyn Silver Anniversary Lager",0.75
+53518,8,6,"Allagash Vagabond Ale",0.75
+86893,8,6,"Fantôme Boo!",0.75
+62527,8,6,"Autumnal",0.75
+103142,8,6,"Red Wheelbarrow",0.75
+110071,8,6,"Anchorage / Crooked Stave Between The Staves",0.75
+107188,8,6,"Bourbon Sour Porter",0.75
+98014,11,8,"Allagash Merveilleux",0.7272727272727273
+1460,7,5,"Bert Grant's Perfect Porter",0.7142857142857143
+120372,7,5,"Triple Sunshine IPA",0.7142857142857143
+57635,7,5,"Total Eclipse Breakfast Stout",0.7142857142857143
+77275,7,5,"Mimosa",0.7142857142857143
+77284,7,5,"Premium",0.7142857142857143
+71953,7,5,"Rapture",0.7142857142857143
+83122,7,5,"Timber Beast",0.7142857142857143
+97036,14,10,"Dogpatch Sour",0.7142857142857143
+122625,7,5,"Fierce",0.7142857142857143
+105157,7,5,"Grassroots Arctic Soirée",0.7142857142857143
+68758,7,5,"Rouge Baril Baltique",0.7142857142857143
+87341,7,5,"Juicy",0.7142857142857143
+61616,10,7,"Drie Fonteinen Straffe Winter",0.7
+31399,10,7,"Eleven",0.7
+62319,10,7,"Jim",0.7
+68026,13,9,"Fantôme Magic Ghost",0.6923076923076923
+114153,13,9,"Blakkr",0.6923076923076923
+92640,16,11,"Drie Fonteinen Intense Red Oude Kriek",0.6875
+60284,16,11,"SOS (Save Our Shore)",0.6875
+110895,19,13,"Hi-Res",0.6842105263157895
+117177,22,15,"Sip Of Sunshine IPA",0.6818181818181818
+58296,6,4,"Allagash Old HLT",0.6666666666666666
+23591,9,6,"Depuration",0.6666666666666666
+61413,9,6,"Trout Hop Black IPA",0.6666666666666666
+58984,6,4,"Red Brick Porter",0.6666666666666666
+48474,9,6,"Benji's Chipotle Smoked Imperial Porter",0.6666666666666666
+58014,6,4,"Truck Stop Honey Brown Ale",0.6666666666666666
+46333,6,4,"Hop-a-lot-amus",0.6666666666666666
+45574,9,6,"Nils Oscar Coffee Stout",0.6666666666666666
+21,9,6,"Deep Shaft Stout",0.6666666666666666
+82290,6,4,"Hopped-Up Goose Juice",0.6666666666666666
+115467,6,4,"Kentucky Bourbon Barrel Barleywine",0.6666666666666666
+115317,9,6,"Dinner",0.6666666666666666
+94887,6,4,"Appreciation",0.6666666666666666
+123823,6,4,"Anchorage / Jolly Pumpkin Calabaza Boreal",0.6666666666666666
+141574,6,4,"Delirium Argentum",0.6666666666666666
+92938,6,4,"19th Anniversary Ale",0.6666666666666666
+77648,15,10,"Row 2/Hill 56",0.6666666666666666
+77217,6,4,"Thrash Metal Farmhouse Strong Ale",0.6666666666666666
+65842,6,4,"Stowaway I.P.A.",0.6666666666666666
+65752,9,6,"Brettanomyces Lambicus Berliner Style Weisse",0.6666666666666666
+91359,6,4,"Lambiek Special",0.6666666666666666
+12,6,4,"Bert Grant's Imperial Stout",0.6666666666666666
+50184,6,4,"Double Wit",0.6666666666666666
+65586,14,9,"Bambic",0.6428571428571429
+77474,8,5,"Moa Breakfast",0.625
+108535,8,5,"Allagash Tiarna",0.625
+83899,8,5,"Ever Weisse",0.625
+34758,8,5,"Beertown Brown",0.625
+71278,8,5,"Saison Sauvin",0.625
+63522,8,5,"Holger Danske",0.625
+83457,8,5,"Alaskan Freeride APA",0.625
+50699,8,5,"Embrasse",0.625
+42355,16,10,"Thirteen",0.625
+3568,8,5,"Fumisterie",0.625
+31120,8,5,"20th Anniversary Pilsner",0.625
+107055,8,5,"Voodoo Doughnut Pretzel, Raspberry & Chocolate Ale",0.625
+49436,18,11,"Belgica",0.6111111111111112
+30588,5,3,"Stock Porter",0.6
+18842,5,3,"Lost Arrow Porter",0.6
+65010,5,3,"Perfect Tin Amber",0.6
+62060,5,3,"Kriek Lambic",0.6
+63379,5,3,"Winterland",0.6
+5195,5,3,"Propeller London Style Porter",0.6
+112081,5,3,"Daybreak (Orange Liqueur Barrel Aged)",0.6
+63868,5,3,"To Øl / Mikkeller Overall IIPA",0.6
+122075,5,3,"Peach Barrel Wheat Ale",0.6
+3248,5,3,"Pater Lieven Tripel",0.6
+65924,5,3,"Optimal Wit",0.6
+79652,5,3,"Native Storm",0.6
+39654,5,3,"Cuvée Du 8ème",0.6
+35391,5,3,"WinterCoat Double Hop",0.6
+88205,5,3,"De Cam Framboise Lambiek",0.6
+77228,10,6,"The Tide And Its Takers",0.6
+90368,5,3,"Brush Tail Farmhouse Saison",0.6
+73630,5,3,"Lupulo De Hielo",0.6
+77500,5,3,"Framinghammer Baltic Porter",0.6
+87637,10,6,"RU-55",0.6
+24427,5,3,"Decadence",0.6
+73580,5,3,"La Luna Rossa",0.6
+93725,5,3,"Maine Island Trail Ale",0.6
+8650,5,3,"Lunator",0.6
+95097,5,3,"Java Chip Mint Stout",0.6
+591,5,3,"Hoogstraten Poorter",0.6
+97912,5,3,"Malka Keha (Stout)",0.6
+98561,5,3,"Althea",0.6
+67582,5,3,"St. Katherine's Tawny Ale",0.6
+66492,5,3,"Redband Stout",0.6
+1791,5,3,"Pride Of Milford Special Ale",0.6
+81627,5,3,"Worry",0.6
+52163,5,3,"Brooklyn Manhattan Project",0.6
+53250,10,6,"Mørke - Pumpernickel Porter",0.6
+45414,5,3,"Cazeau Tournay Noire",0.6
+54116,5,3,"Fatali Four",0.6
+160,5,3,"Buzzards Bay Golden Ale",0.6
+10788,5,3,"Pilot Rock Porter",0.6
+48090,5,3,"Curmudgeon IPA",0.6
+50435,10,6,"Valeir Extra",0.6
+77230,22,13,"Galaxy White IPA",0.5909090909090909
+59428,7,4,"Blond",0.5714285714285714
+24218,7,4,"Cantillon Spuyten Duyvil",0.5714285714285714
+169237,7,4,"Jammer",0.5714285714285714
+7009,7,4,"Castle Eggenberg Urbock Dunkel Eisbock",0.5714285714285714
+26031,7,4,"FestiveAle",0.5714285714285714
+106843,7,4,"Grapefruit Harvest IPA",0.5714285714285714
+79941,7,4,"Blend Love",0.5714285714285714
+1071,7,4,"Saint Arnold Summer Pils",0.5714285714285714
+62600,7,4,"Howling Wolf Weisse Bier",0.5714285714285714
+94115,7,4,"Kentucky IPA",0.5714285714285714
+52900,7,4,"Painted Ladies Pumpkin Spice Ale",0.5714285714285714
+56780,7,4,"Pannepot Wild",0.5714285714285714
+57004,7,4,"Mugshot IPA",0.5714285714285714
+70832,7,4,"Nordic Rye Ale",0.5714285714285714
+70194,16,9,"Whiteout Wit",0.5625
+89747,16,9,"Overrated West Coast IPA",0.5625
+60846,16,9,"Smoked Baltic Porter",0.5625
+44143,9,5,"Oscura",0.5555555555555556
+79904,9,5,"Cerasus",0.5555555555555556
+49662,9,5,"Allagash Gargamel Ale",0.5555555555555556
+107838,9,5,"The Substance",0.5555555555555556
+54387,9,5,"Gose",0.5555555555555556
+81572,9,5,"De Viento",0.5555555555555556
+35207,9,5,"Smuttynose Hanami Ale",0.5555555555555556
+84487,9,5,"Saison Bernice",0.5555555555555556
+43385,20,11,"Scurvy",0.55
+61771,11,6,"Heavy Horse Scotch Ale",0.5454545454545454
+74733,11,6,"Light Speed",0.5454545454545454
+51071,24,13,"Captain Sig's Northwestern Ale",0.5416666666666666
+93219,13,7,"Sosus",0.5384615384615384
+72827,13,7,"Barrel Aged Naked Evil",0.5384615384615384
+52530,15,8,"Flaming Fury",0.5333333333333333
+73173,10,5,"ZeeLander",0.5
+75850,6,3,"B.O.R.I.S. #100",0.5
+72964,8,4,"Evil Cousin",0.5
+72917,8,4,"Amarillo Pale Ale",0.5
+74064,8,4,"Jean Chris Nomad 2011",0.5
+72512,8,4,"It Takes A Lot Of Great Beer To Make Great Wine",0.5
+48921,6,3,"Russian Gun Imperial Stout",0.5
+79654,6,3,"Brett Dream",0.5
+77016,12,6,"Kabert",0.5
+78255,6,3,"Hopageddon Imperial IPA",0.5
+78377,24,12,"Simtra Triple IPA",0.5
+60324,8,4,"Black Raven IPA",0.5
+60366,6,3,"Madamin",0.5
+60377,6,3,"McNeill's Dark Angel Imperial Stout",0.5
+58840,10,5,"Allagash Coolship Resurgam",0.5
+56115,16,8,"Hop Dam Triple IPA",0.5
+56210,6,3,"Scarface Imperial Stout",0.5
+56758,8,4,"Rogue Farms Single Malt Ale",0.5
+5434,6,3,"McNeill's Imperial Stout",0.5
+51917,6,3,"Hop Master's Abbey Belgian-Style Double IPA",0.5
+63767,8,4,"Saison",0.5
+63804,6,3,"Hangar 24 Chocolate Bomber",0.5
+65312,8,4,"Velvet Glove",0.5
+64798,12,6,"Kingpin Double Red Ale",0.5
+114236,6,3,"Montmorency Vs Balaton",0.5
+169676,6,3,"Americana",0.5
+159480,8,4,"Lupulin River",0.5
+87240,6,3,"Hoppin’ Frog / Fanø Natasha Røcks America Chocolate Rye Imperial Stout",0.5
+82874,6,3,"Far West Vlaming",0.5
+83626,6,3,"Terrapin Tree Hugger",0.5
+84772,10,5,"West Ashley",0.5
+95131,12,6,"Weez",0.5
+1809,6,3,"Witkap Pater Tripel",0.5
+43605,8,4,"Bikini Blonde Lager",0.5
+25473,6,3,"Partly Sunny",0.5
+11709,6,3,"Skye Gold",0.5
+25903,6,3,"Hirter Morchl",0.5
+20194,6,3,"Sleighor Double IPA",0.5
+18201,6,3,"Mo' Betta Bretta",0.5
+31254,12,6,"Allagash Musette",0.5
+37691,12,6,"Slam Dunkel",0.5
+81079,17,8,"Peche 'n Brett",0.47058823529411764
+37157,17,8,"Rocky Mountain IPA",0.47058823529411764
+19976,13,6,"Duck-Rabbit Amber Ale",0.46153846153846156
+56774,13,6,"Black Damnation III - Black Mes",0.46153846153846156
+67760,13,6,"Double Galaxy",0.46153846153846156
+44968,11,5,"Rye Hopper",0.45454545454545453
+63455,11,5,"Doubly Down 'N Even Dirtier",0.45454545454545453
+50055,11,5,"Seven (#7)",0.45454545454545453
+81125,11,5,"Drie Fonteinen Oude Geuze - Armand & Tommy",0.45454545454545453
+18556,9,4,"Bedarö Bitter",0.4444444444444444
+93034,9,4,"Ethos IPA",0.4444444444444444
+95068,9,4,"Another One",0.4444444444444444
+99011,9,4,"Mastermind",0.4444444444444444
+44016,9,4,"Professor Fritz Briem 13th Century Grut Bier",0.4444444444444444
+113339,9,4,"A Tiny Beautiful Something",0.4444444444444444
+44910,9,4,"Dirty Horse",0.4444444444444444
+47137,16,7,"Fireside Ale",0.4375
+36722,7,3,"Haymaker Extra Pale Ale",0.42857142857142855
+39972,7,3,"'t Smisje Grande Reserva",0.42857142857142855
+2850,7,3,"Headless Man Amber Alt",0.42857142857142855
+66623,7,3,"Svea IPA",0.42857142857142855
+2580,7,3,"Zatte Bie",0.42857142857142855
+38467,7,3,"Summit Pilsener",0.42857142857142855
+27057,7,3,"Aud Blonde",0.42857142857142855
+72810,21,9,"Love Buzz Saison",0.42857142857142855
+3535,7,3,"Thames Welsh ESB",0.42857142857142855
+45576,14,6,"Bombshell Blonde",0.42857142857142855
+41605,7,3,"Kenzinger",0.42857142857142855
+98888,7,3,"Disco Soleil",0.42857142857142855
+1598,7,3,"Old Slugger",0.42857142857142855
+22165,14,6,"Oppigårds Winter Ale",0.42857142857142855
+6517,7,3,"De Dolle Speciaal Brouwsel 20",0.42857142857142855
+50390,7,3,"Hopyard Pale",0.42857142857142855
+48254,7,3,"HogWild IPA",0.42857142857142855
+60832,21,9,"Rumble IPA",0.42857142857142855
+21459,12,5,"Drie Fonteinen Druiven Gueuze (Malvasia Rosso)",0.4166666666666667
+56551,12,5,"Onyx Black Ale",0.4166666666666667
+81072,12,5,"Summit Sága IPA",0.4166666666666667
+58235,12,5,"Saison De Dottignies",0.4166666666666667
+81602,5,2,"Central Waters / Local Option De Kleine Dood",0.4
+89620,5,2,"Lil One",0.4
+58917,5,2,"Tilted Smile Imperial Pilsner",0.4
+32441,5,2,"Bierbrier Premium Ale",0.4
+26120,5,2,"Tegernsee Spezial",0.4
+43843,5,2,"Oakshire Amber",0.4
+39478,5,2,"Newport Storm '07",0.4
+43716,5,2,"Black Noddy Lager",0.4
+88816,5,2,"Allagash Golden Brett",0.4
+58810,5,2,"Chinookie IPA",0.4
+56850,5,2,"Springtime Ale",0.4
+2495,5,2,"La Divine",0.4
+3528,5,2,"Baltus O.V.S. Ale",0.4
+41327,5,2,"Lift Bridge Brown Ale",0.4
+52334,5,2,"Cold Front",0.4
+88361,5,2,"Honeyspot Road IPA",0.4
+178,5,2,"Strike Out Stout",0.4
+5539,5,2,"East Coast Lager",0.4
+176308,5,2,"Sur Citra",0.4
+7988,10,4,"'t Smisje BBBourgondier",0.4
+37916,5,2,"Hop Lava IPA",0.4
+77762,5,2,"Yard Sale Winter Lager",0.4
+47099,5,2,"Belvidere Big IPA",0.4
+58998,5,2,"Herbe à Détourne",0.4
+41953,5,2,"Horizon Wheat",0.4
+3019,5,2,"Pater Lieven Bruin",0.4
+72824,5,2,"Savannah Brown Ale",0.4
+75933,15,6,"Hoptologist DIPA",0.4
+51076,5,2,"Papegaei",0.4
+6481,5,2,"Moat Bone Shaker Brown",0.4
+11747,5,2,"1892 Traditional Ale",0.4
+110453,10,4,"Straffe Hendrik Wild",0.4
+81140,5,2,"Daniel Boone",0.4
+76421,15,6,"Mornin' Delight",0.4
+3549,5,2,"Rapscallion Blessing",0.4
+25656,10,4,"Pale Ale",0.4
+42321,5,2,"Aktien Original 1857",0.4
+95561,5,2,"Extase",0.4
+22842,5,2,"La Blonde D'Esquelbecq / Thiriez Blonde",0.4
+14254,5,2,"Blueberry Ale",0.4
+99058,5,2,"Kentucky Pumpkin Barrel Ale",0.4
+62403,10,4,"Framboise For A Cure",0.4
+84796,5,2,"Honey Saison",0.4
+77299,46,18,"Resin",0.391304347826087
+69522,18,7,"Double Citra",0.3888888888888889
+66449,21,8,"Koko Brown",0.38095238095238093
+49983,8,3,"Flying Monkeys Hoptical Illusion Almost Pale Ale",0.375
+36862,8,3,"Wild Frog Wheat Ale",0.375
+80021,8,3,"West Sixth IPA",0.375
+2918,8,3,"Lunacy",0.375
+16637,8,3,"Black Hole",0.375
+55605,8,3,"Kipling",0.375
+22787,8,3,"Alaskan Icy Bay IPA",0.375
+36594,24,9,"Wailua Wheat",0.375
+7778,8,3,"Pater Lieven (Kerst Pater Special) Christmas",0.375
+36532,19,7,"Alaskan Baltic Porter (Pilot Series)",0.3684210526315789
+40149,41,15,"Brooklyn Black OPS",0.36585365853658536
+30956,11,4,"La Meule",0.36363636363636365
+43844,11,4,"Watershed IPA",0.36363636363636365
+67606,14,5,"Sneaky Pete Imperial IPA",0.35714285714285715
+1137,14,5,"Brooklyner Weisse",0.35714285714285715
+1144,17,6,"Perkuno's Hammer Imperial Porter",0.35294117647058826
+44706,29,10,"400 Pound Monkey",0.3448275862068966
+39390,32,11,"Jockamo IPA",0.34375
+17559,9,3,"13 Rebels ESB",0.3333333333333333
+77451,6,2,"Revival Double Black IPA",0.3333333333333333
+34544,6,2,"Narragansett Porter",0.3333333333333333
+80333,6,2,"Sleep Over Coffee IIPA",0.3333333333333333
+47767,6,2,"BIG HAPI India Black Ale",0.3333333333333333
+467,6,2,"Blue Heron Ale",0.3333333333333333
+31626,6,2,"Three Beaches Honey Blonde",0.3333333333333333
+33662,12,4,"Bodacious Black & Tan",0.3333333333333333
+26497,9,3,"Fleur-de-lis Restoration Ale",0.3333333333333333
+2520,9,3,"San Quentin Breakout Stout",0.3333333333333333
+22032,6,2,"Rejection",0.3333333333333333
+88207,6,2,"Road 2 Ruin",0.3333333333333333
+1737,6,2,"El Toro IPA",0.3333333333333333
+1989,6,2,"Nut Brown Ale",0.3333333333333333
+179,6,2,"Old Yankee Ale",0.3333333333333333
+77209,6,2,"Kili Wit",0.3333333333333333
+90903,12,4,"Brasserie De Blaugies / Hill Farmstead La Vermontoise",0.3333333333333333
+2543,6,2,"""Old Yeltsin"" Imperial Stout",0.3333333333333333
+107165,6,2,"Narragansett Autocrat Coffee Milk Stout",0.3333333333333333
+28927,6,2,"Propeller IPA",0.3333333333333333
+28993,6,2,"Steel Toe Stout",0.3333333333333333
+86487,21,7,"Susan",0.3333333333333333
+331,9,3,"ImPaled Ale",0.3333333333333333
+105906,6,2,"Space Ghost Imperial Stout",0.3333333333333333
+43087,9,3,"Survival ""7-Grain"" Stout",0.3333333333333333
+72762,9,3,"Alaskan Perseverance Ale (Pilot Series)",0.3333333333333333
+7364,6,2,"Cisk Lager",0.3333333333333333
+66752,12,4,"Das Wunderkind! Saison",0.3333333333333333
+67046,24,8,"Dubhe Imperial Black IPA",0.3333333333333333
+59514,6,2,"Viven Imperial IPA",0.3333333333333333
+70540,6,2,"Boxcarr Pumpkin Porter",0.3333333333333333
+59217,6,2,"Zeppelin Bier",0.3333333333333333
+62070,6,2,"Ignis Et Flamma",0.3333333333333333
+72120,6,2,"Small Patch Pumpkin Harvest Ale",0.3333333333333333
+43011,12,4,"Holy Mackerel Mack In Black",0.3333333333333333
+66500,6,2,"Dulcis Succubus",0.3333333333333333
+47412,6,2,"Cantillon Reed Gueuze Pinot Noir",0.3333333333333333
+39721,9,3,"Kerstmutske Christmas Nightcap",0.3333333333333333
+43881,6,2,"Christian Moerlein Lager House Original Golden Helles",0.3333333333333333
+56416,6,2,"Bottleworks XI Anniversary Ale",0.3333333333333333
+69369,6,2,"Sweetwater Waterkeeper Hefeweizen",0.3333333333333333
+7226,6,2,"Morocco Ale",0.3333333333333333
+42505,6,2,"Moritz",0.3333333333333333
+47923,9,3,"Spring Reign",0.3333333333333333
+4718,15,5,"Vapeur Cochonne",0.3333333333333333
+55554,18,6,"Black Damnation II - Mocha Bomb",0.3333333333333333
+66443,6,2,"Monumental IPA",0.3333333333333333
+48583,6,2,"Baumé",0.3333333333333333
+53958,22,7,"Cantillon Mamouche",0.3181818181818182
+1550,19,6,"Stoudts American Pale Ale",0.3157894736842105
+39766,19,6,"Samichlaus Bier Helles",0.3157894736842105
+63971,16,5,"Zwet.Be",0.3125
+57886,29,9,"Edward",0.3103448275862069
+39201,13,4,"Hopworks IPA",0.3076923076923077
+76468,13,4,"Citra Extra Pale Ale",0.3076923076923077
+44888,13,4,"Harvest Ale",0.3076923076923077
+53266,13,4,"Pursuit Of Hoppiness",0.3076923076923077
+58,23,7,"Allagash Grand Cru",0.30434782608695654
+38700,23,7,"Brooklyner-Schneider Hopfen-Weisse",0.30434782608695654
+47088,23,7,"Cantillon Crianza Helena",0.30434782608695654
+27607,10,3,"Beerlao Dark",0.3
+63490,20,6,"Existent",0.3
+78937,17,5,"Tallgrass 8-Bit Pale Ale",0.29411764705882354
+56274,17,5,"TINY",0.29411764705882354
+2481,7,2,"Petrus Winterbier",0.2857142857142857
+1344,14,4,"Saint Arnold Fancy Lawnmower",0.2857142857142857
+2284,7,2,"Slow Elk Oatmeal Stout",0.2857142857142857
+38674,7,2,"Plowman's Ale",0.2857142857142857
+53576,7,2,"Oppigårds Amarillo",0.2857142857142857
+18290,7,2,"Ybor Gold Amber Lager",0.2857142857142857
+18487,7,2,"Millstream Iowa Pale Ale",0.2857142857142857
+64545,21,6,"Double Sunshine IPA",0.2857142857142857
+49634,14,4,"Five (#5)",0.2857142857142857
+37692,14,4,"Twelve",0.2857142857142857
+74065,7,2,"077XX",0.2857142857142857
+43217,21,6,"Riserva",0.2857142857142857
+21472,7,2,"Generation Porter",0.2857142857142857
+69461,7,2,"Barrel Aged B.O.R.I.S. Royale",0.2857142857142857
+32432,21,6,"Total Domination IPA",0.2857142857142857
+48186,7,2,"Planet Bean Coffee Stout",0.2857142857142857
+6798,7,2,"Boréale Noire",0.2857142857142857
+74900,7,2,"Tallgrass Velvet Rooster",0.2857142857142857
+9966,7,2,"Double Ice Bock",0.2857142857142857
+54903,7,2,"Peacemaker Pale Ale",0.2857142857142857
+69626,7,2,"Bronze",0.2857142857142857
+1783,7,2,"Pale Ale",0.2857142857142857
+103923,7,2,"Kasteel Winter",0.2857142857142857
+72170,32,9,"PseudoSue",0.28125
+45653,76,21,"Consecration",0.27631578947368424
+469,11,3,"Black Strap Stout",0.2727272727272727
+3921,11,3,"Point Classic Amber",0.2727272727272727
+47941,22,6,"Alpha Dog Imperial IPA",0.2727272727272727
+91189,11,3,"Classique",0.2727272727272727
+66245,11,3,"Elevated IPA",0.2727272727272727
+1945,11,3,"Spaten Pils",0.2727272727272727
+32903,22,6,"Saison Deluxe",0.2727272727272727
+1191,11,3,"Tuppers' Hop Pocket Pils (Keller Pils)",0.2727272727272727
+46955,11,3,"Satsuma Harvest Wit",0.2727272727272727
+182,11,3,"Smuttynose Portsmouth Lager",0.2727272727272727
+114259,11,3,"Dirty Little Freak",0.2727272727272727
+72838,19,5,"Oak Jacked Imperial Pumpkin Ale",0.2631578947368421
+5411,19,5,"Stoudts Pils",0.2631578947368421
+56071,8,2,"Hopportunity Knocks",0.25
+57402,8,2,"Grain Belt Nordeast",0.25
+23458,8,2,"Sweetwater Hummer",0.25
+53832,8,2,"Flying Monkeys Netherworld Cascadian Dark Ale",0.25
+22601,8,2,"De Dolle Lichtervelds Blond",0.25
+57722,8,2,"Monkeynaut IPA",0.25
+1636,12,3,"Weyerbacher Wit",0.25
+58278,8,2,"Allagash Avancé",0.25
+1468,16,4,"Prohibition Ale",0.25
+44368,8,2,"Blowing Rock High Country Ale",0.25
+15278,16,4,"Fantôme Black Ghost",0.25
+37518,24,6,"Mean Manalishi Double I.P.A.",0.25
+30851,12,3,"Cuvée Du 7ème",0.25
+10301,20,5,"Southampton Grand Cru",0.25
+35329,12,3,"Doppelbock Dunkel",0.25
+35923,12,3,"Devil Dog Imperial IPA",0.25
+36366,8,2,"Fatty Boombalatty",0.25
+13769,8,2,"Light",0.25
+49522,8,2,"Helios Pale Ale",0.25
+48243,28,7,"Modus Hoperandi",0.25
+48691,8,2,"Devil's Tramping Ground Tripel",0.25
+774,16,4,"Sapporo Reserve",0.25
+43974,8,2,"Siamese Twin Ale",0.25
+105430,12,3,"GoneAway IPA",0.25
+66555,8,2,"Trestles",0.25
+39392,8,2,"St. Benedict's Winter Ale",0.25
+37966,29,7,"Tricerahops Double IPA",0.2413793103448276
+58811,21,5,"Crooked Line: Labyrinth Black Ale",0.23809523809523808
+30521,21,5,"Duck-Rabbit Wee Heavy Scotch Style Ale",0.23809523809523808
+117,21,5,"Maple Nut Brown Ale",0.23809523809523808
+43010,13,3,"Holy Mackerel Special Golden Ale",0.23076923076923078
+5964,13,3,"Fantôme Strange Ghost",0.23076923076923078
+65020,22,5,"White Thai",0.22727272727272727
+75009,18,4,"Lindley Park",0.2222222222222222
+76261,9,2,"Morningwood",0.2222222222222222
+25414,18,4,"Caldera Pale Ale",0.2222222222222222
+77315,9,2,"Icelandic White Ale",0.2222222222222222
+9749,9,2,"Wostyntje",0.2222222222222222
+31931,18,4,"Tangerine Wheat",0.2222222222222222
+68452,9,2,"Delirium Red",0.2222222222222222
+42189,9,2,"Glacial Trail IPA",0.2222222222222222
+17291,9,2,"Jenlain Bière De Noël",0.2222222222222222
+3976,9,2,"La Guillotine",0.2222222222222222
+81814,9,2,"Akari Shogun",0.2222222222222222
+3086,9,2,"Happy Heron Pale Ale",0.2222222222222222
+58770,9,2,"Flying Monkeys Smashbomb Atomic IPA",0.2222222222222222
+1782,9,2,"Apricot Wheat",0.2222222222222222
+329,9,2,"Beast Bitter",0.2222222222222222
+38459,23,5,"Bam Noire",0.21739130434782608
+995,14,3,"Mai Bock",0.21428571428571427
+27116,14,3,"Jenlain Ambrée",0.21428571428571427
+21548,14,3,"Thomas Hooker Old Marley Barleywine",0.21428571428571427
+34084,14,3,"Val-Dieu Grand Cru",0.21428571428571427
+18721,19,4,"CascaZilla",0.21052631578947367
+27545,24,5,"Fuego Del Otono, Autumn Fire",0.20833333333333334
+16655,29,6,"Allagash Four",0.20689655172413793
+713,10,2,"St. Sebastiaan Dark",0.2
+1469,10,2,"Alaskan Pale",0.2
+1216,5,1,"Pale Ale",0.2
+16676,5,1,"Enghien Noël Triple Blonde",0.2
+13726,15,3,"Wailing Wench",0.2
+1000,10,2,"Winter Brew",0.2
+54050,5,1,"Permagrin Rye Pale Ale",0.2
+6314,20,4,"Irish Style Lager",0.2
+13302,5,1,"Irish Red Ale",0.2
+13765,10,2,"ESB Special Ale",0.2
+54192,5,1,"Imperial Eclipse Stout - Jack Daniels",0.2
+5748,5,1,"Bürger Classic",0.2
+50731,10,2,"Rubus",0.2
+105785,5,1,"Andechser Vollbier Hell",0.2
+17085,5,1,"Midnight Sun Espresso Stout",0.2
+50054,10,2,"Six (#6)",0.2
+18630,15,3,"Southampton Cuvee Des Fleurs",0.2
+54818,5,1,"Frostnipper Winter Warmer",0.2
+50882,5,1,"EOS Hefeweizen",0.2
+19112,5,1,"Wendelinus Blonde",0.2
+46674,5,1,"Fantôme Fleur De Bomal",0.2
+1406,5,1,"Zatte",0.2
+47259,5,1,"Fantôme La Gillmoir",0.2
+48888,5,1,"Northwest Passage",0.2
+51922,5,1,"V Cense",0.2
+349,10,2,"Jupiler",0.2
+11960,5,1,"Switchback Ale",0.2
+56387,5,1,"Wild Raven",0.2
+37156,10,2,"Old Habit",0.2
+8668,5,1,"Southampton Peconic County Reserve Ale",0.2
+40819,5,1,"Winter Ale",0.2
+42441,5,1,"Nude Beach Summer Wheat",0.2
+25293,5,1,"Saint Arnold Texas Wheat",0.2
+1765,5,1,"Oatmeal Stout",0.2
+42805,15,3,"Cuvée De Ranke",0.2
+10643,15,3,"Vichtenaar",0.2
+27168,10,2,"Presidential IPA",0.2
+7320,5,1,"Oatmeal Porter",0.2
+6995,5,1,"Newport Storm '02",0.2
+61109,5,1,"Saint Arnold Weedwacker",0.2
+4198,5,1,"Stickenjab Alt Bier",0.2
+10387,5,1,"AleSmith Evil Dead Red",0.2
+68713,5,1,"5 Lizard",0.2
+9641,5,1,"Déesse Nocturne",0.2
+125,10,2,"John's Generations White Ale",0.2
+34564,5,1,"Super Kitty",0.2
+77030,10,2,"Icelandic Toasted Porter",0.2
+3407,5,1,"Nimbus Dirty Güera (Blonde) Ale",0.2
+80328,5,1,"Lunker",0.2
+74478,5,1,"Ol' Oi!",0.2
+1592,5,1,"Celestial Gold",0.2
+57724,5,1,"Lily Flagg Milk Stout",0.2
+77361,5,1,"Nickel Brook Bolshevik Bastard Russian Imperial Stout",0.2
+22257,31,6,"Maracaibo Especial",0.1935483870967742
+38795,26,5,"Kasteel Rouge",0.19230769230769232
+21337,21,4,"Decadent Imperial IPA",0.19047619047619047
+46273,16,3,"Lava",0.1875
+5970,16,3,"AutumnFest",0.1875
+12451,16,3,"Warsteiner Premium Oktoberfest",0.1875
+35774,27,5,"Blasphemy",0.18518518518518517
+1959,11,2,"Farmhouse Summer Ale",0.18181818181818182
+24217,22,4,"Fantôme Brise-BonBons",0.18181818181818182
+3315,11,2,"Buster Nut Brown Ale",0.18181818181818182
+25277,22,4,"Oud Beersel Framboise",0.18181818181818182
+18467,11,2,"Cantillon Loerik",0.18181818181818182
+56046,11,2,"Drie Fonteinen Oude Geuze 1998 (50th Anniversary)",0.18181818181818182
+78906,33,6,"MO",0.18181818181818182
+3653,11,2,"Erdinger Weissbier Kristallklar",0.18181818181818182
+802,11,2,"Hefe Weiss",0.18181818181818182
+39267,33,6,"Noel De Calabaza",0.18181818181818182
+26528,11,2,"Petrus Blond",0.18181818181818182
+43312,11,2,"Stoudts Heifer-in-Wheat",0.18181818181818182
+1421,45,8,"Delirium Nocturnum",0.17777777777777778
+17770,17,3,"Point Cascade Pale Ale",0.17647058823529413
+62972,17,3,"Twilight Of The Idols",0.17647058823529413
+1611,40,7,"Warsteiner Premium Dunkel",0.175
+358,47,8,"XS Imperial India Pale Ale",0.1702127659574468
+59019,6,1,"Saison Du Tracteur",0.16666666666666666
+9584,6,1,"Celis Grand Cru",0.16666666666666666
+3573,6,1,"Cerna Hora",0.16666666666666666
+2350,12,2,"Key West Sunset Ale",0.16666666666666666
+874,6,1,"Vuuve",0.16666666666666666
+44085,18,3,"DogZilla Black IPA",0.16666666666666666
+20344,6,1,"Boréale Blanche",0.16666666666666666
+73965,18,3,"Baba Black Lager",0.16666666666666666
+6876,6,1,"Boréale Rousse",0.16666666666666666
+50451,6,1,"Widow Maker Black Ale",0.16666666666666666
+14063,6,1,"Best Bitter",0.16666666666666666
+34413,6,1,"Pozharnik Espresso Russian Imperial Stout",0.16666666666666666
+26867,6,1,"Fantôme Circus",0.16666666666666666
+66865,6,1,"Tap It IPA",0.16666666666666666
+43135,6,1,"Cantillon Reed Gueuze Muscat",0.16666666666666666
+58754,18,3,"Detour Double India Pale Ale",0.16666666666666666
+649,6,1,"Ipswich Dark Ale",0.16666666666666666
+55335,6,1,"Naked Pig Pale Ale",0.16666666666666666
+11456,6,1,"Skye Red",0.16666666666666666
+16558,6,1,"Chaman",0.16666666666666666
+2837,24,4,"Kosmyk Charlie's Y2K Catastrophe Ale",0.16666666666666666
+5832,6,1,"Beatrix",0.16666666666666666
+31696,6,1,"Proper",0.16666666666666666
+56045,6,1,"Cantillon Goldackerl Gueuze",0.16666666666666666
+23505,30,5,"Strawberry Harvest Lager",0.16666666666666666
+41196,6,1,"Urweisse",0.16666666666666666
+12956,6,1,"Andechser Export Dunkel",0.16666666666666666
+3704,12,2,"Tsunami Stout",0.16666666666666666
+77627,6,1,"Deep Ellum IPA",0.16666666666666666
+9116,6,1,"Cantillon Soleil De Minuit",0.16666666666666666
+748,6,1,"Blackbeard Ale",0.16666666666666666
+15853,6,1,"Zunft Kölsch",0.16666666666666666
+30693,6,1,"Red Jacket Amber Ale",0.16666666666666666
+49044,6,1,"Burly Brown",0.16666666666666666
+145,18,3,"Wild Raspberry Ale",0.16666666666666666
+40362,6,1,"MacPelican's Wee Heavy",0.16666666666666666
+2190,6,1,"Wachusett Blueberry Ale",0.16666666666666666
+3392,12,2,"Saison De Pipaix",0.16666666666666666
+167431,6,1,"Ransack the Universe - Hemisphere IPA",0.16666666666666666
+81010,25,4,"Gose",0.16
+13742,25,4,"Salvation",0.16
+21593,19,3,"Fantôme Chocolat",0.15789473684210525
+34968,19,3,"Snapperhead IPA",0.15789473684210525
+54522,32,5,"Zoe",0.15625
+2106,13,2,"Stoudt's Gold Lager",0.15384615384615385
+1297,13,2,"Kentucky Ale",0.15384615384615385
+1639,13,2,"Raspberry Imperial Stout",0.15384615384615385
+4923,13,2,"Alleycat Amber",0.15384615384615385
+2298,13,2,"Rio Blanco Pale Ale",0.15384615384615385
+74559,13,2,"George",0.15384615384615385
+1315,7,1,"Genuine Dark Beer",0.14285714285714285
+3480,7,1,"Motor City Brewing Ghettoblaster",0.14285714285714285
+1393,7,1,"McNeill's Extra Special Bitter",0.14285714285714285
+1306,14,2,"Alaskan ESB",0.14285714285714285
+37881,7,1,"Moat Iron Mike Pale Ale",0.14285714285714285
+5370,7,1,"St. Paul Double",0.14285714285714285
+8052,7,1,"Wayan",0.14285714285714285
+1594,7,1,"Pious Monk Dunkel",0.14285714285714285
+2147,14,2,"Winterbraun",0.14285714285714285
+72361,7,1,"Duchessa",0.14285714285714285
+64925,7,1,"Riwaka Pale Ale",0.14285714285714285
+2221,7,1,"Klisch Pilsner Beer",0.14285714285714285
+29211,7,1,"Southampton 10th Anniversary Old Ale",0.14285714285714285
+34311,21,3,"Aardmonnik - Earthmonk",0.14285714285714285
+39778,7,1,"Serafijn Christmas Angel",0.14285714285714285
+33624,14,2,"Hoppin' To Heaven IPA",0.14285714285714285
+10010,14,2,"Fantôme La Gourmande",0.14285714285714285
+5612,7,1,"Trader Session IPA",0.14285714285714285
+2477,28,4,"Wittekerke",0.14285714285714285
+39286,42,6,"St. Bernardus Christmas Ale",0.14285714285714285
+7643,7,1,"Hell",0.14285714285714285
+2575,21,3,"Val-Dieu Brune",0.14285714285714285
+54905,7,1,"(512) Whiskey Barrel Aged Double Pecan Porter",0.14285714285714285
+4452,7,1,"Point Reyes Porter",0.14285714285714285
+46146,7,1,"Tallgrass IPA",0.14285714285714285
+157,22,3,"Affligem Dubbel",0.13636363636363635
+41778,15,2,"Chupacabras Pale Ale",0.13333333333333333
+18975,38,5,"Oro De Calabaza",0.13157894736842105
+1472,31,4,"Big Daddy IPA",0.12903225806451613
+16509,31,4,"De Dolle Extra Export Stout",0.12903225806451613
+35525,8,1,"La Buteuse",0.125
+1065,8,1,"Saint Arnold Amber Ale",0.125
+58868,16,2,"Cockeyed Cooper",0.125
+20206,16,2,"Duck-Rabbit Brown Ale",0.125
+634,24,3,"De Dolle Boskeun",0.125
+6724,8,1,"Andechser Bergbock Hell",0.125
+22919,8,1,"Headwall Alt",0.125
+2553,8,1,"Ad Astra Ale",0.125
+10573,8,1,"Angler's Pale Ale",0.125
+19765,8,1,"OktoberFish",0.125
+7097,8,1,"Brewer's Art Resurrection",0.125
+2646,24,3,"Erdinger Weissbier Pikantus",0.125
+5621,8,1,"King's Peak Porter",0.125
+5126,8,1,"Nut Brown Ale",0.125
+1855,65,8,"St. Bernardus Prior 8",0.12307692307692308
+51512,25,3,"Peeper Ale",0.12
+38636,17,2,"Montana Trout Slayer Wheat Ale",0.11764705882352941
+68916,35,4,"Lunch",0.11428571428571428
+7195,9,1,"Pietra",0.1111111111111111
+7761,9,1,"Cantillon Faro",0.1111111111111111
+470,9,1,"Bridgeport ESB",0.1111111111111111
+31336,9,1,"Knot Stock",0.1111111111111111
+32620,18,2,"SurlyFest",0.1111111111111111
+6319,9,1,"Girardin Framboise",0.1111111111111111
+3588,9,1,"Bière Darbyste",0.1111111111111111
+48873,18,2,"Wyld Extra Pale Ale",0.1111111111111111
+16559,9,1,"Grande Noirceur",0.1111111111111111
+30533,9,1,"Girardin Faro 1882",0.1111111111111111
+2548,9,1,"Old Slug Porter",0.1111111111111111
+2361,38,4,"AleSmith Horny Devil",0.10526315789473684
+30358,19,2,"Ichtegem's Grand Cru",0.10526315789473684
+30625,19,2,"Twin Sisters Double IPA",0.10526315789473684
+383,10,1,"Penn Dark",0.1
+3148,10,1,"Pinstripe Red Ale",0.1
+23720,10,1,"Devil's Backbone",0.1
+1888,10,1,"Old Backus Barleywine",0.1
+1894,10,1,"Druid Fluid",0.1
+2040,40,4,"Reissdorf Kölsch",0.1
+1506,30,3,"Efes Pilsener",0.1
+8280,10,1,"Bink Bruin",0.1
+2347,54,5,"Delirium Noël",0.09259259259259259
+35625,65,6,"Weihenstephaner Vitus",0.09230769230769231
+4924,22,2,"Kriek De Ranke",0.09090909090909091
+2214,22,2,"Urbock 23°",0.09090909090909091
+2299,11,1,"Brewhouse Brown Ale",0.09090909090909091
+28179,11,1,"Liquid Gold",0.09090909090909091
+28312,11,1,"AleSmith My Bloody Valentine",0.09090909090909091
+2734,11,1,"Summit Maibock",0.09090909090909091
+997,11,1,"Oktoberfest",0.09090909090909091
+5481,11,1,"Estrella Galicia",0.09090909090909091
+7167,11,1,"Weltenburger Kloster Winter-Traum",0.09090909090909091
+33639,11,1,"Cocoa Porter Winter Warmer",0.09090909090909091
+6318,11,1,"Girardin Kriek 1882",0.09090909090909091
+1072,11,1,"Saint Arnold Oktoberfest",0.09090909090909091
+32846,23,2,"Taras Boulba",0.08695652173913043
+1876,23,2,"Good Juju (Ginger Ale)",0.08695652173913043
+3840,23,2,"Anniversary Barley Wine Ale",0.08695652173913043
+22592,23,2,"Big Wave Golden Ale",0.08695652173913043
+5537,12,1,"Weltenburger Kloster Anno 1050",0.08333333333333333
+1516,12,1,"Deep Cover Brown Ale",0.08333333333333333
+36316,37,3,"Cantillon Blåbær Lambik",0.08108108108108109
+7588,25,2,"Sisyphus",0.08
+25851,26,2,"Brooklyn Blast!",0.07692307692307693
+60990,13,1,"Mogli",0.07692307692307693
+24651,26,2,"Polestar Pilsner",0.07692307692307693
+3319,13,1,"Stiegl Goldbräu",0.07692307692307693
+6436,13,1,"La Moneuse",0.07692307692307693
+8983,13,1,"Drie Fonteinen Millennium Geuze",0.07692307692307693
+458,13,1,"Pilsener",0.07692307692307693
+146,53,4,"Brooklyn Brown Ale",0.07547169811320754
+1483,27,2,"Hops Infusion",0.07407407407407407
+2812,28,2,"Satin Solitude Imperial Stout",0.07142857142857142
+5654,14,1,"Hinano",0.07142857142857142
+2557,56,4,"Cantillon Rosé De Gambrinus",0.07142857142857142
+30764,42,3,"Coffee Bender",0.07142857142857142
+1566,47,3,"Blithering Idiot",0.06382978723404255
+4920,16,1,"Weltenburger Kloster Barock Dunkel",0.0625
+32410,32,2,"Left Hand Oktoberfest",0.0625
+30174,16,1,"Allagash Victoria Ale",0.0625
+750,17,1,"Carib Lager",0.058823529411764705
+99,68,4,"Spaten Optimator",0.058823529411764705
+1591,17,1,"Winter Ale",0.058823529411764705
+19736,18,1,"Duck-Rabbit Porter",0.05555555555555555
+11922,74,4,"Titan IPA",0.05405405405405406
+65038,19,1,"India Pale Ale",0.05263157894736842
+17442,19,1,"Perdition",0.05263157894736842
+760,57,3,"Weihenstephaner Kristallweissbier",0.05263157894736842
+2211,20,1,"De Ranke Père Noël",0.05
+2899,41,2,"Andechser Doppelbock Dunkel",0.04878048780487805
+22343,41,2,"Southern Pecan",0.04878048780487805
+20518,42,2,"Sanctification",0.047619047619047616
+1309,43,2,"Alaskan Amber",0.046511627906976744
+148,65,3,"Brooklyn Lager",0.046153846153846156
+5328,44,2,"Longboard Island Lager",0.045454545454545456
+2576,22,1,"Val-Dieu Triple",0.045454545454545456
+5057,67,3,"Fantôme Saison",0.04477611940298507
+1856,48,2,"St. Bernardus Pater 6",0.041666666666666664
+3833,148,6,"AleSmith Speedway Stout",0.04054054054054054
+5281,50,2,"Cantillon Fou' Foune",0.04
+1669,25,1,"Great White",0.04
+3961,25,1,"Alaskan Summer Ale",0.04
+5051,25,1,"Fantôme Pissenlit",0.04
+4137,26,1,"Gaffel Kölsch",0.038461538461538464
+12770,55,2,"Damnation",0.03636363636363636
+2558,28,1,"Cantillon Vigneronne",0.03571428571428571
+1565,29,1,"Andygator",0.034482758620689655
+19488,30,1,"Happy Ending Imperial Stout",0.03333333333333333
+645,187,6,"Trappistes Rochefort 10",0.03208556149732621
+680,134,4,"Brooklyn Black Chocolate Stout",0.029850746268656716
+2559,35,1,"Cantillon Bruocsella (1900) Grand Cru",0.02857142857142857
+1251,36,1,"Black Jack Porter",0.027777777777777776
+570,38,1,"Brooklyn Oktoberfest",0.02631578947368421
+1670,40,1,"Indica India Pale Ale",0.025
+6861,44,1,"Weihenstephaner Festbier",0.022727272727272728
+779,64,1,"Weihenstephaner Korbinian",0.015625
+22790,82,1,"Blind Pig IPA",0.012195121951219513
+1385,84,1,"Delirium Tremens",0.011904761904761904

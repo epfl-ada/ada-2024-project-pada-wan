@@ -1,10 +1,13 @@
 import numpy as np
-def custom_quote(x): #fction that puts all strings inside a ""
-    return '"' + x + '"' if isinstance(x, str) else x
+import pandas as pd
+import csv
 
-def export_csv_correct_format(dataset, filename):
-    #put all strings from the datasets beer_consumption_country_wikipedia and country_analysis3 inside a ""
-    data_copy=dataset.copy()
-    data_copy=data_copy.applymap(custom_quote)
-    data_copy.replace('', np.nan, inplace=True)
-    data_copy.to_csv(f"data/{filename}.csv", index=False, na_rep='NaN')
+def export_csv(dataset: pd.DataFrame, filename: str) -> None:
+    copy_data = dataset.copy()
+    copy_data.replace('', np.nan, inplace=True)
+    copy_data.to_csv(f"{filename}.csv", index=False, quotechar='"', quoting=csv.QUOTE_NONNUMERIC, na_rep='NaN')
+
+
+if __name__=="__main__":
+    df = pd.read_csv('country_analysis3.csv')
+    export_csv(df, 'country_analysis3_test')
