@@ -1,4 +1,4 @@
-### URL to Datastory:
+### URL to Datastory: https://owhenthesaints.github.io/posts/project/
 
 ## Abstract 
 We are a group of students passionate about brewing, and eager to launch our first beer. We have therefore taken it upon ourselves to look at beer reviews, find the customer needs and succeed in our market entry. For this, we will first observe the global beer landscape to see how satisfied the customers are with the current market and if an entry is possible. In this case, we will analyse the favourable characteristics of the products in order to multiply our chances of a successful market entry. Once we have our product, we will develop a launch strategy containing A DAta-driven communication plan and launch schedule. All in all, we want to determine how to make the most successful newcomer beer! 
