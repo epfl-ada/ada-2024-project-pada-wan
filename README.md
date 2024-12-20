@@ -16,7 +16,11 @@ Product launch:
 ### Data Preprocessing
 The review data available from two beer rating websites, RatingBeer and BeerAdvocate, are in two .txt files that were used to create our initial dataset. This also enables us to keep only the useful data for the following tasks and discard the rest. The matched beer dataset is useful to evaluate user origin bias when rating as the dataset is created by keeping reviews from beers present in both websites, which have different demographics. The downside is a significant decrease in the number of reviews.
 ### Data Enrichment
-To assess the optimal market entry variables for a new product, the data must first be grouped by the size of the breweries and the novelty of the beer product. Then for proper analysis, the beers need to be characterised, review texts can provide valuable context to further confirm the correct assignment of a beer into the correct category. The product name, the brewery it is from, date of first review, review development as well as review text can help determine beers that can be considered newcomers. Our definition of newcomers will include both entirely new breweries as well as beers. This data enrichment will also be brought by extra datasets.
+In order to fully analyse, three other datasets have been used to enrich our analysis and be able to normalise the results. 
+- The population per country in the world from [world bank group](https://data.worldbank.org/indicator/SP.POP.TOTL?end=2012&start=2008)
+- The list of countries by beer consumption from [wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_beer_consumption_per_capita)
+- Median income per year (after tax) from [Our World in Data](https://www.lisdatacenter.org)
+
 ### Time series data
 Each review uploaded to RateBeer and BeerAdvocate has a date and location associated with it. This allows reviews to be analysed as a time series over a chosen period. This allows for the analysis of seasonal changes. In order to avoid bias, location must also be taken into account to ensure that reviews from the southern hemisphere have a reversed seasonal allocation. Once taken into account we can create predictive mapping of when reviews are more favourable and when they are less favourable. This can also be mapped with other data such as, for how long the people have been reviewing the data, and combined with other datasets, informing us on availability of beer all year round to give us deep insight into when we should bring our beer to market and does the optimal beer change over time. 
 ### Additional Datasets
