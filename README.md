@@ -25,10 +25,10 @@ Each review uploaded to RateBeer and BeerAdvocate has a date and location associ
 The current datasets from Rate Beers and Beer Advocate are already quite dense and contain various information. However, we observed a significant concentration of users from the USA compared to other regions. To mitigate this bias, we considered two options. Firstly, we will take into account, for questions that are location dependent, the overrepresentation of U.S. users by mitigating it through normalisation using population data from the World Bank in our dataset. Secondly, we want to incorporate additional beer reviews from other datasets. We intend to complement our datasets, especially the appearance of our beers with this dataset. We also intend to get more data still off the internet by trying to scrape some data off websites such as beer advocate and beerizer.com to try and get more up-to-date info about some beers and to try and extract prices.
 
 ## Contributions
-Matti: Problem formulation, Newcomer Analysis, Data Story Structure and Text Production
-Anderson: Left the group for his startup
-Sylvain: Location Analysis, Data Story Structure and Text Production
-Owen: Data scraping, website setup, Plotting interactive graphs
-Tom: Linking the notebooks, Data Story Structure and Text Production
+- Matti: Problem formulation, Newcomer Analysis, Data Story Structure and Text Production
+- Anderson: Left the group for his startup
+- Sylvain: Location Analysis, Data Story Structure and Text Production
+- Owen: Data scraping, website setup, Plotting interactive graphs
+- Tom: Linking the notebooks, Data Story Structure and Text Production
 
 
